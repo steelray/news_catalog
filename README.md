@@ -8,7 +8,26 @@
 
 INITIALIZATION 
 -------------------
-(https://www.yiiframework.com/extension/yiisoft/yii2-app-advanced/doc/guide/2.0/en/start-installation#preparing-application)
+```
+1) clone repo
+2) go to project root and run  "php init"
+3) Create a new database and adjust the components['db'] configuration in common/config/main-local.php accordingly.
+4) Open a console terminal, apply migrations with command /path/to/php-bin/php /path/to/yii-application/yii migrate.
+
+In your server config set document root the root of project directory for all(api|backend|frontend) apps
+For Apache it could be the following:
+
+ <VirtualHost *:80>
+    ServerName sitename.loc
+    ServerAlias www.sitename.loc
+    DocumentRoot "/path/to/sitename.loc/"
+       
+    <Directory "/path/to/sitename.loc/">
+        AllowOverride All
+    </Directory>
+</VirtualHost>
+
+```
 
 DIRECTORY STRUCTURE
 -------------------
