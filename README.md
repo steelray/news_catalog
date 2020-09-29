@@ -6,7 +6,7 @@
     <br>
 </p>
 
-INITIALIZATION 
+INSTALLATION 
 -------------------
 ```
 1) clone repo
