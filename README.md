@@ -2,7 +2,7 @@
     <a href="https://github.com/yiisoft" target="_blank">
         <img src="https://avatars0.githubusercontent.com/u/993323" height="100px">
     </a>
-    <h1 align="center">Yii 2 Advanced Project Template</h1>
+    <h1 align="center">News catalog applications based on Yii 2 Advanced </h1>
     <br>
 </p>
 
@@ -55,6 +55,14 @@ frontend
     views/               contains view files for the Web application
     web/                 contains the entry script and Web resources
     widgets/             contains frontend widgets
+api
+    actions/             contains api custom actions 
+    config/              contains api configurations
+    controllers/         contains Web controller classes
+    models/              contains api-specific model classes
+    runtime/             contains files generated during runtime
+    tests/               contains tests for frontend application
+    web/                 contains the entry script and Web resources
 vendor/                  contains dependent 3rd-party packages
 environments/            contains environment-based overrides
 ```
