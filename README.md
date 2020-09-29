@@ -8,11 +8,13 @@
 
 
 
-DEMO
+<h2>DEMO</h2>
 <br>
-(http://playground.webdev4.net) - frontend (source code - (https://github.com/steelray/news_catalog_front.git))
-(http://news-catalog.webdev4.net/api/posts) - api posts
-(http://news-catalog.webdev4.net/api/categories) - api categories
+(http://playground.webdev4.net) - <strong>frontend</strong> (source code - (https://github.com/steelray/news_catalog_front.git))
+<br>
+(http://news-catalog.webdev4.net/api/posts) - <strong>api posts</strong>
+<br>
+(http://news-catalog.webdev4.net/api/categories) - <strong>api categories</strong>
 
 
 LINKS 
