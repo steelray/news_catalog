@@ -2,9 +2,30 @@
     <a href="https://github.com/yiisoft" target="_blank">
         <img src="https://avatars0.githubusercontent.com/u/993323" height="100px">
     </a>
-    <h1 align="center">News catalog applications based on Yii 2 Advanced </h1>
+    <h1 align="center">News catalog API based on Yii 2 Advanced </h1>
     <br>
 </p>
+
+
+LINKS 
+-------------------
+```
+POSTS
+
+GET /api/posts - query params: category_id, title
+POST /api/posts - request body: title, content, slug, category_id: []
+UPDATE /api/posts/:id - request body: title, content, slug, category_id: []
+DELETE /api/posts/:id
+
+
+CATEGORIES
+
+GET /api/categories - all categories
+GET /api/get-tree - categories tree
+POST /api/categories - request body: title, slug, parent_id
+UPDATE /api/categories/:id - request body: title, slug, parent_id
+DELETE /api/categories/:id
+```
 
 INSTALLATION 
 -------------------
